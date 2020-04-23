@@ -7,4 +7,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class OrchestratorService {
 
+  private OrchestratorResult getMappedResult() {
+    OrchestratorResult result = null;
+    //TODO 
+   // result.setfields(....
+    return result.toString();
+  }
 }
